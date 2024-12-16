@@ -1,0 +1,124 @@
+/* BOX-SIZING */
+* {
+    box-sizing: border-box;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0 0 0 var(--static-space-12);
+    line-height: 150%;
+}
+
+li {
+    padding: 0;
+    list-style-position: inside;
+    font-size: inherit;
+    color: inherit;
+
+    &::marker {
+        margin-right: var(--static-space-4);
+        color: var(--brand-on-background-weak);
+    }
+}
+
+img {
+    user-select: none;
+}
+
+/* SELECTION */
+::selection {
+    background: var(--neutral-on-background-medium);
+    color: var(--neutral-background-strong);
+}
+
+/* LINK */
+a {
+    color: var(--brand-on-background-medium);
+    text-decoration: none;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25em;
+    text-decoration-color: var(--neutral-border-strong) !important;
+
+    &:hover {
+        text-decoration-line: underline;
+    }
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    background: var(--static-transparent);
+    width: var(--static-space-8);
+    height: var(--static-space-8);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--static-transparent);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--neutral-alpha-medium);
+    border-radius: var(--radius-full);
+    transition: var(--transition-micro-medium);
+
+    &:hover {
+        background: var(--neutral-alpha-strong);
+    }
+}
+
+::-webkit-scrollbar-corner {
+    background-color: var(--static-transparent);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.pics-section {
+    position: relative;
+    .milani {
+        transform: translateY(-30px);
+        margin: 0 3rem;
+    }
+
+}
+
+.note {
+    cursor: pointer;
+    opacity: 0.85;
+    color: #4a392b;
+    width: 220px;
+    font-size: 0.9rem;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#fdf3e6, #f5e6d0);
+    border: 1px solid #d1bfa3;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2),
+    inset 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', serif;
+    background-blend-mode: multiply;
+    background-size: cover;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+.gift {
+    object-fit: cover;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: red;
+    font-size: .8rem;
+}
