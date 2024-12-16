@@ -5,15 +5,11 @@ import { getTranslations } from 'next-intl/server';
 export const runtime = 'edge';
 
 export async function GET(request: Request) {
-    let url = new URL(request.url)
-    let title = url.searchParams.get('title') || 'Portfolio'
+    let title = 'Puppy Birthday'
     const font = fetch(
         new URL('../../../public/fonts/Inter.ttf', import.meta.url)
     ).then((res) => res.arrayBuffer());
     const fontData = await font;
-
-    const t = await getTranslations();
-    const { person } = renderContent(t);
 
     return new ImageResponse(
         (
@@ -45,46 +41,17 @@ export async function GET(request: Request) {
                         }}>
                         {title}
                     </span>
-                    <div
+
+                    <span
                         style={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '5rem'
+                            fontSize: '2.5rem',
+                            lineHeight: '2.5rem',
+                            whiteSpace: 'pre-wrap',
+                            textWrap: 'balance',
+                            opacity: '0.6'
                         }}>
-                        <img src={'https://' + baseURL + person.avatar}
-                            style={{
-                                width: '12rem',
-                                height: '12rem',
-                                objectFit: 'cover',
-                                borderRadius: '100%',
-                            }}/>
-                        <div
-                            style={{
-                                display: 'flex',
-                                flexDirection: 'column',
-                                gap: '0.75rem'
-                            }}>
-                            <span
-                                style={{
-                                    fontSize: '4.5rem',
-                                    lineHeight: '4.5rem',
-                                    whiteSpace: 'pre-wrap',
-                                    textWrap: 'balance',
-                                }}>
-                                {person.name}
-                            </span>
-                            <span
-                                style={{
-                                    fontSize: '2.5rem',
-                                    lineHeight: '2.5rem',
-                                    whiteSpace: 'pre-wrap',
-                                    textWrap: 'balance',
-                                    opacity: '0.6'
-                                }}>
-                                {person.role}
-                            </span>
-                        </div>
-                    </div>
+                        Milany tanase
+                    </span>
                 </div>
             </div>
         ),
