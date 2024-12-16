@@ -6,7 +6,16 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
     pageExtensions: ['ts', 'tsx'],
     trailingSlash: true,
-    skipTrailingSlashRedirect: true
+    skipTrailingSlashRedirect: true,
+    images: {
+        unoptimized: true,
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: '**',
+            },
+        ],
+    }
 };
 
 export default withNextIntl(nextConfig);
