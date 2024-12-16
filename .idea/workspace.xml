@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ac20aea-7555-4586-8a62-ff056af44568" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/about/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/blog/[slug]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/blog/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/blog/posts/en/new-milestone-in-my-career.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/blog/posts/en/the-99-percent-that-remains-in-the-drawer.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/blog/posts/en/the-rise-of-design-engineering.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/blog/posts/id/new-milestone-in-my-career.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/blog/posts/id/the-99-percent-that-remains-in-the-drawer.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/blog/posts/id/the-rise-of-design-engineering.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[locale]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/work/[slug]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/work/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/work/projects/en/automate-design-handovers-with-a-figma-to-code-pipeline.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/work/projects/en/building-once-ui-a-customizable-design-system.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/work/projects/en/simple-portfolio-builder.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/work/projects/id/automate-design-handovers-with-a-figma-to-code-pipeline.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/work/projects/id/building-once-ui-a-customizable-design-system.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[locale]/work/projects/id/simple-portfolio-builder.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/resources/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/resources/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/resources/renderContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/resources/renderContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/id.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/id.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +25,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yassinbagane/Desktop/magic-portfolio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/yassinbagane/Desktop/magic-portfolio/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yassinbagane/Desktop/milany-birthday",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/yassinbagane/Desktop/milany-birthday/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
@@ -79,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734295728627</updated>
       <workItem from="1734295729627" duration="37175000" />
+      <workItem from="1734360490051" duration="723000" />
     </task>
     <servers />
   </component>
