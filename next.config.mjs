@@ -4,7 +4,9 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    pageExtensions: ['ts', 'tsx']
+    pageExtensions: ['ts', 'tsx'],
+    trailingSlash: true,
+    skipTrailingSlashRedirect: true
 };
 
 export default withNextIntl(nextConfig);
